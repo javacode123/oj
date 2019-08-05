@@ -49,4 +49,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().plusOne([9,9,9])
+    print(Solution().plusOne([9,9,9]))

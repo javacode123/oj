@@ -18,4 +18,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().strStr('aaaaa', 'bba')
+    print(Solution().strStr('aaaaa', 'bba'))

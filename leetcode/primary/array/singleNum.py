@@ -26,4 +26,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().singleNumber([1, 1, 3])
+    print(Solution().singleNumber([1, 1, 3]))

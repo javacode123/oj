@@ -21,4 +21,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().reverse(1563847412)
+    print(Solution().reverse(1563847412))

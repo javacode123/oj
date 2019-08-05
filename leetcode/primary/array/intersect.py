@@ -56,5 +56,5 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().intersect([1,2,2,1], [2, 2])
+    print(Solution().intersect([1,2,2,1], [2, 2]))
 

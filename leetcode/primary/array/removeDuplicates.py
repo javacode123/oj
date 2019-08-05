@@ -20,4 +20,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().removeDuplicates([1, 2, 2, 3])
+    print(Solution().removeDuplicates([1, 2, 2, 3]))

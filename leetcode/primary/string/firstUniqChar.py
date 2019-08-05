@@ -24,4 +24,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().firstUniqChar('loveleetcode')
+    print(Solution().firstUniqChar('loveleetcode'))

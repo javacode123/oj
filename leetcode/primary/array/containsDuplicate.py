@@ -24,4 +24,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().containsDuplicate([1,2,3,1])
+    print(Solution().containsDuplicate([1,2,3,1]))

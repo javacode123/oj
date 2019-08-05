@@ -55,4 +55,4 @@ if __name__ == '__main__':
     ]
     Solution().rotate(matirx)
     for i in matirx:
-        print i
+        print(i)
