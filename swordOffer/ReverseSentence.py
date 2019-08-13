@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-# -*- coding:utf-8 -*-
 
 
 def reverse_sentence(s):
@@ -16,6 +15,6 @@ def reverse_sentence(s):
 
 if __name__ == '__main__':
     s = " "
-    print s == " "
-    print s.split(' ')
-    print reverse_sentence(s) == ' '
+    print(s == " ")
+    print(s.split(' '))
+    print(reverse_sentence(s) == ' ')
