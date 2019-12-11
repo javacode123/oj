@@ -102,8 +102,54 @@
         :set nonu     取消行号   
         :w 文件名      文件另存为  
         
-     
-        
+* Bash
+
+   * env: 查看环境变量  
+   * export 变量名称: 将自定义变量转换成环境变量，让子进程使用
+   * echo $name: 输出变量 name 的值
+   * &: 任务管理，将命令变成后台任务  
+   * ls > a.txt, ls >> a.txt: 输出到文件，分别为覆盖和追加
+   * 1>, 2>: 分别为标准输出和错误输出
+   * find / -name .bashrc 1>des.txt 2>err.txt: 对于 permission denied 信息会输出到 err.txt
+   * find / -name .bashrc &>err.txt: 标准输出和错误输出均写入同一个文件
+
+
+* 正则表达式
+
+   * ^#  以 # 开头的一行
+   * $!  以 ! 结尾的一行
+   * .   仅有一个字符，例如查找 (abe)(ace)(ade) 使用 a.e
+   * [abz] 仅有一个待查找的字符
+   * [0-9] 0-9 的十个字符中，仅有一个待查找的字符
+   * t[^A-Z] t 后面一个字符不是大写字母
+   * go\{3, 5\}  g 后面有两个到五个连续的 o
+  
+* shell script
+
+  * if then  
+  ```
+    #!/bin/bash
+    read -p 'input name' name
+    
+    if [ $name == "zjl" ]; then
+        echo $name
+    else
+        echo 'error'
+    fi
+  ```
+  * while
+  ```
+    #!/bin/bash
+    s=0
+    i=0
+    while [ "${i}" != "${1}" ]
+    do
+        s=$((${s} + ${i}))
+        i=$((${i} + 1))
+    done
+    
+    echo ${s}
+  ```
         
         
         
